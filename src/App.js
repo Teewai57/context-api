@@ -1,4 +1,5 @@
 import Login from "./components/login"
+import Profile from "./components/profile";
 import React, { useState } from "react"
 
 export default function App() {
@@ -6,6 +7,7 @@ export default function App() {
 
   return(
     <div className="App">
+      {showProfile ? <Profile /> : <Login />}
           <Login />
     </div>
   )
