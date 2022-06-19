@@ -13,6 +13,11 @@ export default function Login() {
             setUsername(event.target.value);
         }}
         />
+        <input 
+        type="text"
+        placeholder="Password..."
+        />
+        
         </>
     )
 }
