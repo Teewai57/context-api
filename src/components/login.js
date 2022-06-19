@@ -3,7 +3,7 @@ import "./login.css"
 import { LoginContext } from "../Contexts/loginContext";
 
 export default function Login() {
-    const {setUsername} = useContext(LoginContext)
+    const {setUsername, setShowProfile} = useContext(LoginContext)
     return(
         <>
         <input 

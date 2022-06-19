@@ -8,7 +8,7 @@ export default function App() {
 
   return(
     <div className="App">
-      <LoginContext.Provider value={{username, setUsername}}>
+      <LoginContext.Provider value={{username, setUsername, setShowProfile}}>
       {showProfile ? <Profile /> : <Login />}
       </LoginContext.Provider>
     </div>
