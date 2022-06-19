@@ -2,9 +2,20 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    margin-top: 2rem;
 }
 input::placeholder{
     padding: 10px;
     background-color: rgb(230, 230, 230);
     color: black;
+}
+button{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 0.5rem;
+
 }
