@@ -1,6 +1,9 @@
-import React from 'react'
+import React, {useContext} from 'react'
+import { LoginContext } from "../Contexts/loginContext"
 
 function profile() {
+    const{ username } = useContext(LoginContext);
+    
   return (
     <>
       <h1>Profile</h1>

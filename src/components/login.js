@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./login.css"
+import { LoginContext } from "../Contexts/loginContext";
 
 export default function Login() {
-
+    const {setUsername} = useContext(LoginContext)
     return(
         <>
         <input 
