@@ -2,9 +2,10 @@ import React from 'react'
 
 function profile() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <h1>Profile</h1>
+      <h2>Username:</h2>
+    </>
   )
 }
 
