@@ -18,13 +18,13 @@ export default function Login() {
         type="text"
         placeholder="Password..."
         />
-        <button onClick={() => {
+        <button>LOGIN</button>
+         {/* onClick={() => {
             setShowProfile(true);
-        }}>
-            LOGIN
-        </button>
+        }} */}
+        
+ 
 
-        {showProfile && <h1>{username}</h1>}
         </>
     )
 }
