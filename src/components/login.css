@@ -4,10 +4,12 @@ input{
     align-items: center;
     margin: auto;
     margin-top: 2rem;
+    padding: 0.5rem;
+    border: none;
+
 }
 input::placeholder{
     padding: 10px;
-    background-color: rgb(230, 230, 230);
     color: black;
 }
 button{
@@ -17,5 +19,8 @@ button{
     align-items: center;
     margin: auto;
     margin-top: 0.5rem;
+    padding: 0.5rem;
+    border: none;
+
 
 }
