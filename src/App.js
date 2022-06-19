@@ -4,12 +4,13 @@ import React, { useState } from "react"
 import { LoginContext } from "./Contexts/loginContect";
 export default function App() {
   const[showProfile, setShowProfile] = useState(false);
+  const[username, setUsername] = useState("");
 
   return(
     <div className="App">
-      <LoginContext>
+      <LoginContext.Provider value={{username, setUsername}}>
       {showProfile ? <Profile /> : <Login />}
-      </LoginContext>
+      </LoginContext.Provider>
     </div>
   )
 }
